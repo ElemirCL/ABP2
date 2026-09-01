@@ -1,0 +1,40 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  background-color: rgb(65, 60, 60);
+}
+input {
+  max-width: 4000px;
+}
+.container {
+  padding-top: 20px;
+  max-width: 500px;
+  margin-top: 25px;
+  background-color: rgb(133, 160, 186);
+}
+
+#heroSection {
+  background-color: rgb(165, 152, 181);
+  border-radius: 30px;
+}
+
+.btnNav{
+  max-width: max-content;
+  font-size: large;
+}
+#infoAcceso {
+  justify-content: center;
+}
+
+ul{
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#nuevoLi{
+  border-color: blueviolet;
+  background-color:transparent;
+  color: white;
+}
