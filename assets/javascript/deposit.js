@@ -1,9 +1,10 @@
+let sueldoInicial = localStorage.getItem('sueldoDeposito')
+let cash = parseFloat(sueldoInicial)
 const btnDepositar = document.getElementById("btnDepositar");
 const deposito = document.getElementById("deposito");
 const alertaDeposito = document.getElementById("alertaDeposito");
 const alerta = document.createElement("p");
-let sueldoInicial = localStorage.getItem('sueldoDeposito')
-let cash = parseFloat(sueldoInicial)
+
 
 
 btnDepositar.addEventListener("click", () => {
